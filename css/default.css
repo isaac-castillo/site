@@ -1,0 +1,68 @@
+body, h1 {
+  margin: 0;
+  background-color: lightgray;
+  background: linear-gradient(90deg, rgba(211,211,211,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+/* navbar */
+.navbar {
+
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  background-color: gray;
+  margin: 0;
+  cursor: default;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar-header {
+  margin: 40px;
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+/* Home Page */
+
+.home-page {
+  height: 600px;
+  font-size: 24px;
+
+  display: grid;
+  place-items: center;
+
+  font-family: 'Nanum Gothic', sans-serif;
+  
+}
+.home-page ul {
+
+}
+.blog-title {
+  display: grid;
+  place-items: center;
+  height: 200px;
+  width: 100%;
+
+  font-size: 36px;
+  font-family: 'Cutive Mono', monospace;
+  
+
+}
+
+.content {
+  display: relative;
+  width: 800px;
+  margin: 0 auto 0 500px;
+
+  
+
+}
+.container {
+  display : grid;
+  grid-template-columns : 150px 50px 100px;
+  grid-template-rows : 100px 100px;
+  }
